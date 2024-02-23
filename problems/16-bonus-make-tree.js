@@ -87,13 +87,7 @@ const categories2 = [
 
 const tree1 = makeTree(categories2, null);
 console.log(tree1);
-/*const categories1 = [
-  { id: 'animals', 'parent': null },
-  { id: 'mammals', 'parent': 'animals' }
-];
 
-const tree1 = makeTree(categories1, null);
-console.log(tree1);*/
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
   module.exports = makeTree;
